@@ -21,13 +21,17 @@
 
 
   <nav class="navbar bg-body-tertiary">
-    <div class="container-fluid">
+    <div class="container-fluid row-cols-lg-4 row g-3">
       <a class="navbar-brand fs-2" href="index.html">Lolza</a>
-      <form class="d-flex " role="search">
+      <form class="d-flex justify-content-center" role="search">
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
         <button class="btn btn-outline-success" type="submit">Search</button>
+
+      </form>
+      <div class="d-flex justify-content-end">
+        <button class="btn btn-outline-success w-50" type="submit">košík</button>
+      </div>
     </div>
-    </form>
   </nav>
 
 
@@ -45,66 +49,100 @@
 
 
   <section class="container mt-5 w-100 d-flex flex-column center">
-    <div class="row row-cols-3 pb-5">
+    <div class="row row-cols-lg-2 row-cols-md-3 pb-5 g-6">
 
       <h3 class=" p-2 pb-2">
-        test
+        Počítače
       </h3>
-      <div class="row row-cols-2">
+      <div class="row row-cols-lg-4">
+        <h5>filtry:</h5>
 
-        <div class="form-check">
-          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-          <label class="form-check-label" for="flexCheckDefault">
-            Default checkbox
-          </label>
+
+        <div class="row-cols-1 row d-flex p-4">
+
+          <div class="form-check me-4 ">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+              Nové
+            </label>
+          </div>
+          <div class="form-check me-4 ">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+              Zánovní
+            </label>
+          </div>
+          <div class="form-check me-4 ">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+              Skladem
+            </label>
+          </div>
         </div>
-        <div class="form-check">
-          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-          <label class="form-check-label" for="flexCheckDefault">
-            Default checkbox
-          </label>
+
+
+
+
+        <div class="d-flex row row-cols-1 p-4 container">
+          <div class="form-check me-4 ">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+              Skladem
+            </label>
+          </div>
+          <div class="form-check me-4 ">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+              Skladem
+            </label>
+          </div>
+          <div class="form-check me-4 ">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+              Skladem
+            </label>
+          </div>
+          <div class="form-check me-4 ">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+              Skladem
+            </label>
+          </div>
         </div>
-        <div class="form-check">
-          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-          <label class="form-check-label" for="flexCheckDefault">
-            Default checkbox
-          </label>
-        </div>
-        <div class="form-check">
-          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-          <label class="form-check-label" for="flexCheckDefault">
-            Default checkbox
-          </label>
-        </div>
-        
-        
+
+
+
       </div>
 
     </div>
     <hr class="pb-4">
 
 
-    <div class="row row-cols-1 row-cols-md-3 row-cols-lg-5 g-3">
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-5 g-3">
 
       <div class="col p-2 shadow-sm ">
         <a href="detail.html">
           <img src="images/img_1.webp" alt="" class="img-fluid w-100">
         </a>
         <div class="col w-100">
-          <div class="me-2 row text-decoration-none  mt-4 text-center w-100 ml-0 ps-5 fs-2">
-            test
+          <div class="me-2  text-decoration-none  mt-4 text-center w-100 ml-0 ">
+            <h3>
+
+              Lenovo Legion T5
+            </h3>
 
           </div>
-          <p class="mt-2">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius corporis asperiores, vel expedita unde,
-            dolores nostrum consectetur inventore consequuntur culpa aut?.....
+          <p class="mt-2 p-2">
+            Herní PC AMD Ryzen 7 7700 5.3 GHz, NVIDIA GeForce RTX 
+            4070 Ti 12GB, RAM 32GB DDR5, SSD 1000 GB, Bez mechaniky, Wi-Fi, HDMI a D
+            isplayPort, 4× USB 3.2, 2× USB 2.0, typ skříně: Big Tower, Windows 11 Home
           </p>
-          <div class="row-cols-2 row">
+          <div class="row-cols-lg-2 row-cols-md-1 row">
             <p class="fs-4">
-              59990
+              59990,-Kč
             </p>
             <div>
-              <button type="button" class="btn btn-primary h-75 ">Primary</button>
+              <button type="button" class="btn btn-primary h-100 w-75">do košíku</button>
             </div>
           </div>
         </div>
@@ -208,7 +246,7 @@
         </div>
       </div>
 
-      
+
       <div class="col p-2 shadow-sm ">
         <a href="detail.html">
           <img src="images/img_1.webp" alt="" class="img-fluid w-100">
